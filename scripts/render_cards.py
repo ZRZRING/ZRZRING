@@ -134,7 +134,7 @@ def render_langs(d):
         for i, (lang, kb) in enumerate(langs):
             cx, cy = col_x[i % 2], col_y + (i // 2) * 28
             pct = kb / total * 100
-            pct_s = f"{pct:.0f}%" if pct >= 1 else "<1%"
+            pct_s = f"{pct:.0f}%" if pct >= 1 else "&lt;1%"
             color = LANG_COLORS.get(lang, "#7aa2f7")
             s += (f'<circle cx="{cx+5}" cy="{cy-4}" r="5" fill="{color}"/>'
                   f'<text x="{cx+18}" y="{cy}" font-family="Segoe UI,Ubuntu,sans-serif" '
@@ -159,7 +159,8 @@ data = gather()
 for name, render in [("stats.svg", render_stats), ("top-langs.svg", render_langs),
                      ("highlights.svg", render_highlights)]:
     svg = render(data)
-    assert "<svg" in svg
+    import xml.etree.ElementTree as ET
+    ET.fromstring(svg)  # XML 不合法直接报错，杜绝把坏图推上线
     with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
         f.write(svg)
     print(f"{name} ok ({len(svg)} bytes)")
