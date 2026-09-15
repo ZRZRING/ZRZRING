@@ -44,7 +44,6 @@
 ![Git](https://skillicons.dev/icons?i=git&theme=dark)
 ![Linux](https://skillicons.dev/icons?i=linux&theme=dark)
 ![Docker](https://skillicons.dev/icons?i=docker&theme=dark)
-![Vim](https://skillicons.dev/icons?i=vim&theme=dark)
 
 </div>
 
@@ -56,8 +55,6 @@
 <img height="170" src="https://streak-stats.demolab.com?user=ZRZRING&hide_border=true&background=1A1B26&ring=7AA2F7&fire=F7768E&currStreakLabel=7AA2F7&currStreakNum=C0CAF5&sideLabels=565F89&sideNums=C0CAF5&dates=565F89" alt="GitHub Streak" />
 
 <br/>
-
-<img height="165" src="https://raw.githubusercontent.com/ZRZRING/ZRZRING/output/top-langs.svg" alt="Top Languages" />
 
 </div>
 
