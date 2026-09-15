@@ -61,11 +61,11 @@
 
 </div>
 
-## 🏆 GitHub Trophies
+## 📌 Contribution Highlights
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ZRZRING/ZRZRING/output/trophy.svg" alt="Trophies" />
+<img src="https://raw.githubusercontent.com/ZRZRING/ZRZRING/output/highlights.svg" alt="Contribution Highlights" />
 
 </div>
 
