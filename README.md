@@ -9,7 +9,9 @@
 ╰──────────────────────────────────────────────────────────╯
 -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:bb9af7&height=190&section=header&text=Ring%20Zhang%20%C2%B7%20ZRZ&fontSize=44&fontColor=ffffff&animation=twinkling&desc=%F0%9F%8E%AE%20Game%20Dev%20%C3%97%20Code&descSize=16&descAlignY=68" width="100%" />
+<!-- ✏️ 横幅文字想换？改 .github/workflows/snake.yml 里 header.svg 那行的 text/desc 参数，Actions 会重新生成 -->
+
+<img src="https://raw.githubusercontent.com/ZRZRING/ZRZRING/output/header.svg" width="100%" />
 
 <div align="center">
 
@@ -50,12 +52,12 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ZRZRING&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&ring_color=7aa2f7&bg_color=1a1b26" alt="GitHub Stats" />
+<img height="170" src="https://raw.githubusercontent.com/ZRZRING/ZRZRING/output/stats.svg" alt="GitHub Stats" />
 <img height="170" src="https://streak-stats.demolab.com?user=ZRZRING&hide_border=true&background=1A1B26&ring=7AA2F7&fire=F7768E&currStreakLabel=7AA2F7&currStreakNum=C0CAF5&sideLabels=565F89&sideNums=C0CAF5&dates=565F89" alt="GitHub Streak" />
 
 <br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZRZRING&layout=compact&hide_border=true&langs_count=8&title_color=7aa2f7&text_color=c0caf5&bg_color=1a1b26" alt="Top Languages" />
+<img height="165" src="https://raw.githubusercontent.com/ZRZRING/ZRZRING/output/top-langs.svg" alt="Top Languages" />
 
 </div>
 
@@ -63,7 +65,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ZRZRING&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6" alt="Trophies" />
+<img src="https://raw.githubusercontent.com/ZRZRING/ZRZRING/output/trophy.svg" alt="Trophies" />
 
 </div>
 
@@ -97,4 +99,6 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,100:7aa2f7&height=120&section=footer" width="100%" />
+<!-- 下方图源均由 .github/workflows/snake.yml 每日生成到 output 分支（vercel.app 国内被污染，全部转存为静态副本） -->
+
+<img src="https://raw.githubusercontent.com/ZRZRING/ZRZRING/output/footer.svg" width="100%" />

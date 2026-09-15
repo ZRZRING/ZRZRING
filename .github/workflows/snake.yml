@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snake & Stats
 
 on:
   schedule:
@@ -21,6 +21,16 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # vercel.app 域名在国内被 DNS 污染，这里在 Actions 服务器上抓取
+      # 转存为静态 SVG，README 引用 output 分支的副本，国内访客也能正常加载
+      - name: Snapshot stats cards & banner
+        run: |
+          curl -fsSL "https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:bb9af7&height=190&section=header&text=Ring%20Zhang%20%C2%B7%20ZRZ&fontSize=44&fontColor=ffffff&animation=twinkling&desc=%F0%9F%8E%AE%20Game%20Dev%20%C3%97%20Code&descSize=16&descAlignY=68" -o dist/header.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api?username=ZRZRING&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&ring_color=7aa2f7&bg_color=1a1b26" -o dist/stats.svg
+          curl -fsSL "https://github-readme-stats.vercel.app/api/top-langs/?username=ZRZRING&layout=compact&hide_border=true&langs_count=8&title_color=7aa2f7&text_color=c0caf5&bg_color=1a1b26" -o dist/top-langs.svg
+          curl -fsSL "https://github-profile-trophy.vercel.app/?username=ZRZRING&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6" -o dist/trophy.svg
+          curl -fsSL "https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,100:7aa2f7&height=120&section=footer" -o dist/footer.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
