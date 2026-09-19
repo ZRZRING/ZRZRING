@@ -1,10 +1,10 @@
 ## 🧭 About Me
 
-- 🔭 I'm currently building **JoyMaker**
-- 🌱 I'm currently learning **Unity & C#**
-- 🎯 You can call me **Ring**, or cn **银狼**
-- 💬 Ask me about anything — I'm happy to help
-- 📫 How to reach me: **zrzring@126.com**
+- 🔭 I'm currently working in **JoyMaker**.
+- 🌱 I'm searching **Game Development**.
+- 🎯 You can call me **Ring**, or cn **银狼**.
+- 💬 Ask me about anything — I'm happy to help.
+- 📫 How to reach me: **zrzring@126.com**.
 
 <div align="center">
   <a href="mailto:zrzring@126.com">
