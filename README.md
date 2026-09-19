@@ -1,7 +1,7 @@
 ## 🧭 About Me
 
 - 🔭 I'm currently working in **JoyMaker**.
-- 🌱 I'm searching **Game Development**.
+- 🌱 I'm exploring **Game Development** and **AI Agent**.
 - 🎯 You can call me **Ring**, or cn **银狼**.
 - 💬 Ask me about anything — I'm happy to help.
 - 📫 How to reach me: **zrzring@126.com**.
